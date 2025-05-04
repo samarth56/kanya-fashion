@@ -10,7 +10,7 @@ import { carouselImages } from '../assets/assets'; // Adjust path as needed
 
 const Hero = () => {
   return (
-    <div className="w-full  mx-auto mt-5">
+    <div className="w-full  mx-auto mt-1">
       <Swiper
         modules={[Autoplay, Pagination, Navigation]}
         loop={true} // Enable looping
