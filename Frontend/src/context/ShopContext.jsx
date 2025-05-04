@@ -6,11 +6,12 @@ export const ShopContext = createContext();
 const ShopContextProvider = (props)=>{
     
     const currency = '₹';
+    const percent = '%';
     
 
     
     const value ={
-        products, currency
+        products, currency, percent
     }
 
     return(
