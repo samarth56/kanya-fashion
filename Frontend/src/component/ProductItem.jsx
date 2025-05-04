@@ -22,9 +22,9 @@ const ProductItem = ({id, image, name, price, oldPrice, discount}) => {
         </div>
 
         <div className='text-center mt-2 ' >
-          <button className='cursor-pointer bg-black text-white w-full py-2'>
+          <Link to='/cart' className='cursor-pointer bg-black text-white w-full py-2'>
             Add to Cart
-          </button>
+          </Link>
         </div>
       
     </Link>
