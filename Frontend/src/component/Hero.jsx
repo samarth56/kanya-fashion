@@ -19,7 +19,7 @@ const Hero = () => {
           disableOnInteraction: false, // Continue autoplay even after interaction
         }}
         pagination={{ clickable: true }} // Clickable pagination
-        navigation={false } // Prev/Next buttons
+        // navigation={true} // Prev/Next buttons
         speed={800} // Smooth transition speed
         loopedSlides={carouselImages.length} // Number of slides to loop (important for dynamic images)
         // className="rounded-2xl"
@@ -29,7 +29,7 @@ const Hero = () => {
             <img
               src={img}
               alt={`Slide ${idx}`}
-              className="w-full h-[80vh] object-cover"
+              className="w-full  object-cover"
             />
           </SwiperSlide>
         ))}
