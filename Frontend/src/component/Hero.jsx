@@ -7,15 +7,17 @@ import 'swiper/css/navigation';
 
 // Import images from assets.js
 import { carouselImages } from '../assets/assets'; // Adjust path as needed
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
     <div className="w-full  mx-auto mt-1">
-      <Swiper
+     <Link to='/collection'>
+     <Swiper
         modules={[Autoplay, Pagination, Navigation]}
         loop={true} // Enable looping
         autoplay={{
-          delay: 2500, // Autoplay delay
+          delay: 5000, // Autoplay delay
           disableOnInteraction: false, // Continue autoplay even after interaction
         }}
         pagination={{ clickable: true }} // Clickable pagination
@@ -34,6 +36,7 @@ const Hero = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+     </Link>
     </div>
   );
 };
