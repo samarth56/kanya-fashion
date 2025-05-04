@@ -76,11 +76,12 @@ import stripe_logo from './stripe_logo.png'
 import cross_icon from './cross_icon.png'
 
 
-import cara1 from './cara1.jpg'
-import cara2 from './cara2.jpg'
-import cara3 from './cara3.jpg'
-import cara4 from './cara4.jpg'
-import cara5 from './cara5.jpg'
+
+import cara1 from './banner1.jpg'
+import cara2 from './banner2.jpg'
+import cara3 from './banner3.jpg'
+import cara4 from './banner4.jpg'
+import cara5 from './banner5.jpg'
 
 export const carouselImages = [cara1, cara2, cara3, cara4, cara5];
 
