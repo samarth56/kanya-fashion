@@ -22,7 +22,7 @@ const Hero = () => {
           }}
           speed={800}
           onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
-          className="w-full h-[500px] sm:h-[600px] md:h-[700px] relative"
+          className="w-full  relative"
         >
           {carouselImages.map((img, idx) => (
             <SwiperSlide key={idx}>
