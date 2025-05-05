@@ -1,42 +1,41 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, EffectFade } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-
-// Import images from assets.js
-import { carouselImages } from '../assets/assets'; // Adjust path as needed
+import 'swiper/css/effect-fade';
+import { carouselImages } from '../assets/assets';
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
+  const [activeIndex, setActiveIndex] = useState(0);
+
   return (
-    <div className="w-full  mx-auto mt-1">
-     <Link to='/collection'>
-     <Swiper
-        modules={[Autoplay, Pagination, Navigation]}
-        loop={true} // Enable looping
-        autoplay={{
-          delay: 5000, // Autoplay delay
-          disableOnInteraction: false, // Continue autoplay even after interaction
-        }}
-        pagination={{ clickable: true }} // Clickable pagination
-        // navigation={true} // Prev/Next buttons
-        speed={800} // Smooth transition speed
-        loopedSlides={carouselImages.length} // Number of slides to loop (important for dynamic images)
-        // className="rounded-2xl"
-      >
-        {carouselImages.map((img, idx) => (
-          <SwiperSlide key={idx}>
-            <img
-              src={img}
-              alt={`Slide ${idx}`}
-              className="w-full  object-cover"
-            />
-          </SwiperSlide>
-        ))}
-      </Swiper>
-     </Link>
+    <div className="w-full mx-auto mt-1">
+      <Link to="/collection">
+        <Swiper
+          modules={[Autoplay, EffectFade]}
+          effect="fade"
+          loop={true}
+          autoplay={{
+            delay: 5000,
+            disableOnInteraction: false,
+          }}
+          speed={800}
+          onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
+          className="w-full h-[500px] sm:h-[600px] md:h-[700px] relative"
+        >
+          {carouselImages.map((img, idx) => (
+            <SwiperSlide key={idx}>
+              <img
+                key={activeIndex === idx ? `active-${idx}` : `inactive-${idx}`}
+                src={img}
+                alt={`Slide ${idx}`}
+                className="w-full h-full object-cover scale-110 animate-zoomOut"
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </Link>
     </div>
   );
 };
