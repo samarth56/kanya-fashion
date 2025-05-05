@@ -10,7 +10,7 @@ const Footer = () => {
         </div>
 
         <div>
-            <p className='text-xl font-medium mb-5'>COMPANY</p>
+            <p className='text-xl font-medium mb-5 text-[#EB2188]'>COMPANY</p>
             <ul className='flex flex-col gap-1 text-gray-600'>
                 <li>Home</li>
                 <li>About Us</li>
@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
 
         <div>
-            <p className='text-xl font-medium mb-5'>GET IN TOUCH</p>
+            <p className='text-xl font-medium mb-5 text-[#EB2188]'>GET IN TOUCH</p>
             <ul className='flex flex-col gap-1 text-gray-600'>
                 <li>+91 7016999270</li>
                 <li>contact@kanyafashion.com</li>
