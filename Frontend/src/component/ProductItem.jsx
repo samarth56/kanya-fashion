@@ -8,26 +8,30 @@ const ProductItem = ({id, image, name, price, oldPrice, discount}) => {
 
   return (
     
-    <Link className='text-gray-700 cursor-pointer group' to={`/product/${id}`}>   
+   <div>
+     <Link className='text-gray-700 cursor-pointer group' to={`/product/${id}`}>   
         <div className='overflow-hidden'>
             <img className='hover:scale-110 transition ease-in-out' src={image[0]} alt="" />
         </div>
-        <p className='pt-3 pb-1 text-sm'>{name}</p>
+        <p className='pt-3 pb-1 text-lg'>{name}</p>
 
         <div className='flex   items-center'>
-        <p className='font-medium mr-5 text-[1.2rem]'>{currency}{price}</p>
-        <p className='font-medium text-gray-500  text-sm'> <strike> {currency}{oldPrice} </strike></p>
+        <p className='font-medium mr-5 text-md text-gray-600'>{currency}{price}</p>
+        {/* <p className='font-medium text-gray-500  text-sm'> <strike> {currency}{oldPrice} </strike></p>
         <span className='mx-1'>|</span>
-        <p className='font-medium text-sm text-green-500'>{discount}{percent} </p>
+        <p className='font-medium text-sm text-green-500'>{discount}{percent} </p> */}
         </div>
 
-        {/* <Link to='/cart' className='text-center mt-2 ' >
-          <button className='cursor-pointer bg-black text-white w-full py-2'>
-            Add to Cart
-          </button>
-        </Link> */}
+       
       
     </Link>
+
+      <div className='text-center   mt-2 cursor-pointer  border-2 border-gray-200 text-gray-700 font-semibold hover:border-black hover:text-black  py-2'>
+        <Link to='/cart'  >
+            Add to Cart
+        </Link>
+      </div>
+   </div>
 
   )
 }
