@@ -21,11 +21,11 @@ const ProductItem = ({id, image, name, price, oldPrice, discount}) => {
         <p className='font-medium text-sm text-green-500'>{discount}{percent} </p>
         </div>
 
-        <Link to='/cart' className='text-center mt-2 ' >
+        {/* <Link to='/cart' className='text-center mt-2 ' >
           <button className='cursor-pointer bg-black text-white w-full py-2'>
             Add to Cart
           </button>
-        </Link>
+        </Link> */}
       
     </Link>
 

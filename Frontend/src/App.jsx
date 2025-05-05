@@ -14,9 +14,13 @@ import Footer from './component/Footer'
 
 const App = () => {
   return (
-    <div className='px-4   sm:px-[5vw] md:px-[7vw] lg:px-[9vw] bg-gray-100 '>
+    <div >
 
-    <Navbar/>
+    <div className='px-4   sm:px-[5vw] md:px-[7vw] lg:px-[9vw]  '>
+
+      <Navbar/>
+    </div>
+
 
       <Routes>
         <Route path='/' element={<Home/>} />
@@ -30,7 +34,9 @@ const App = () => {
         <Route path='/Orders' element={<Orders/>}/>  
       </Routes>
 
-      <Footer/>
+      <div className='px-4   sm:px-[5vw] md:px-[7vw] lg:px-[9vw]  '>
+        <Footer/>
+      </div>
 
     </div>
   )
