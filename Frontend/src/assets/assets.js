@@ -55,12 +55,12 @@ import p_img50 from './d7_06.jpg'
 // import p_img52 from './p_img52.png'
 
 
-import catgoryImg1 from './untitled-2.jpg'
-import catgoryImg2  from './untitled-3.jpg'
-import catgoryImg3 from './untitled-4.jpg'
-import catgoryImg4 from './untitled-5.jpg'
-import catgoryImg5 from './untitled-6.jpg'
-import catgoryImg6 from './untitled-7.jpg'
+import catgoryImg1 from './Untitled-2.jpg'
+import catgoryImg2  from './Untitled-3.jpg'
+import catgoryImg3 from './Untitled-4.jpg'
+import catgoryImg4 from './Untitled-5.jpg'
+import catgoryImg5 from './Untitled-6.jpg'
+import catgoryImg6 from './Untitled-7.jpg'
 
 
 import logo from './logo.png'
