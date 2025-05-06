@@ -13,7 +13,7 @@ const ProductItem = ({id, image, name, price, oldPrice, discount}) => {
         <div className='overflow-hidden'>
             <img className='hover:scale-110 transition ease-in-out' src={image[0]} alt="" />
         </div>
-        <p className='pt-3 pb-1 text-lg'>{name}</p>
+        <p className='pt-3 pb-1 text-sm  truncate overflow-hidden whitespace-nowrap  '>{name}</p>
 
         <div className='flex   items-center'>
         <p className='font-medium mr-5 text-md text-gray-600'>{currency}{price}</p>

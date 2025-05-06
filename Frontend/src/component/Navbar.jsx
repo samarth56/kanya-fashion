@@ -11,12 +11,21 @@ const Navbar = () => {
 
 
   return (
-    <div className='flex items-center justify-between py-3 font-medium'>
+    <div className='flex items-center justify-between py-3 font-medium '>
         
         <Link to='/' className='flex items-center gap-2'>
-        <img src={assets.logo3} alt="LLL" className='w-16' /> 
-          <span className='prata-regular text-[#EB2188] text-sm sm:text-sm md:text-md lg:text-lg xl:text-xl '>KANYA FASHION</span>
-        </Link>
+  <img src={assets.logo3} alt="Logo" className='w-16' /> 
+  
+  <div className='flex flex-col text-center leading-tight'>
+    <span className='outfit-bold text-[#EB2188] text-sm sm:text-sm md:text-md lg:text-lg xl:text-xl'>
+      KANYA FASHION
+    </span>
+    <span className='prata-regular text-[#EB2188] text-[10px] sm:text-xs md:text-sm lg:text-sm'>
+      Drape The Grace
+    </span>
+  </div>
+</Link>
+
         
         <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>
             <NavLink to='/' className="flex flex-col items-center gap-1">
@@ -25,7 +34,7 @@ const Navbar = () => {
             </NavLink>
 
             <NavLink to='/collection' className="flex flex-col items-center gap-1 group">
-              <p>COLLECTION</p>
+              <p>NEW ARRIVALS</p>
               <hr className='w-3/4 border-none h-[1.5px] bg-gray-700 hidden '/>
               <div className='group-hover:block hidden absolute dropdown left-[45%] pt-8  ' >
                     <div className='flex flex-col gap-2 w-36 py-3 px-5 bg-slate-100 text-gray-500 rounded '>
@@ -37,12 +46,17 @@ const Navbar = () => {
             </NavLink>
             
             <NavLink to='/about' className="flex flex-col items-center gap-1">
-              <p>ABOUT </p> 
+              <p>SHOP BY OCCASION </p> 
               <hr className='w-3/4 border-none h-[1.5px] bg-gray-700 hidden '/>
             </NavLink>
 
             <NavLink to='contact' className="flex flex-col items-center gap-1">
-              <p>CONTACT</p>
+              <p>TRANDING COLLECTION</p>
+              <hr className='w-3/4 border-none h-[1.5px] bg-gray-700 hidden '/>
+            </NavLink>
+
+            <NavLink to='contact' className="flex flex-col items-center gap-1">
+              <p>SHOP BY CATEGORY</p>
               <hr className='w-3/4 border-none h-[1.5px] bg-gray-700 hidden '/>
             </NavLink>
         </ul>

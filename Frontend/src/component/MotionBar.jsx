@@ -14,7 +14,7 @@ const offers = [
 
 const MotionBar = () => {
   return (
-    <div className="bg-[#EB2188] text-white py-2">
+    <div className="bg-[#EB2188] text-white py-2 ">
       <Swiper
         modules={[Autoplay]}
         spaceBetween={0}

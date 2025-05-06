@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import { ShopContext } from '../context/ShopContext'
 import Title from './Title'
 import ProductItem from './ProductItem'
+import { Link } from 'react-router-dom'
 
 const LatestCollection = () => {
 
@@ -9,13 +10,13 @@ const LatestCollection = () => {
     const [latestProducts, setLatestProducts] = useState([]);
 
     useEffect(()=>{
-        setLatestProducts(products.slice(0,10))
+        setLatestProducts(products.slice(0,8))
     },[])
 
   return (
     <div className='my-10 '>
         <div className='text-center py-8 text-3xl'>
-            <Title text1={'LATEST'} text2={'COLLECTIONS'} />
+            <Title text1={'NEW'} text2={'ARRIVALS'} />
         </div>
 
     {/* rendering products  */}
@@ -27,6 +28,12 @@ const LatestCollection = () => {
             ))
         }
     </div>
+
+     <div className='w-full flex justify-center'>
+     <Link to='/cart'  className='text-center mt-8 cursor-pointer bg-black text-white border-2  py-3 px-5'>
+            VIEW ALL PRODUCTS
+      </Link>
+     </div>
 
     </div>
   )

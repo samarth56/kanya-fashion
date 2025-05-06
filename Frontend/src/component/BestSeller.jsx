@@ -2,6 +2,8 @@ import React, { useContext, useEffect, useState } from 'react'
 import { ShopContext } from '../context/ShopContext'
 import Title from './Title';
 import ProductItem from './ProductItem';
+import { Link } from 'react-router-dom'
+
 
 const BestSeller = () => {
   
@@ -10,7 +12,7 @@ const BestSeller = () => {
 
     useEffect(()=>{
         const bestProduct = products.filter((item)=>(item.bestseller))
-        setBestSeller(bestProduct.slice(0,5))
+        setBestSeller(bestProduct.slice(0,4))
     }, [])
 
     
@@ -30,6 +32,13 @@ const BestSeller = () => {
                     ))
                 }
              </div>
+
+             <div className='w-full flex justify-center'>
+                <Link to='/cart'  className='text-center mt-8 cursor-pointer bg-black text-white border-2  py-3 px-5'>
+                    VIEW ALL PRODUCTS
+                </Link>
+             </div>
+
     </div>
   )
 }
