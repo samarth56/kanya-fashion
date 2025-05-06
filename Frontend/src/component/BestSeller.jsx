@@ -34,7 +34,7 @@ const BestSeller = () => {
              </div>
 
              <div className='w-full flex justify-center'>
-                <Link to='/cart'  className='text-center mt-8 cursor-pointer bg-black text-white border-2  py-3 px-5'>
+                <Link to='/cart'  className='text-center mt-8 cursor-pointer bg-black text-white hover:scale-105 transition ease-in-out  py-3 px-5'>
                     VIEW ALL PRODUCTS
                 </Link>
              </div>
