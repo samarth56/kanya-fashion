@@ -14,7 +14,7 @@ const Navbar = () => {
       {/* Navbar Main */}
       <div className='flex items-center justify-between py-3 font-medium px-2 sm:px-8 md:px-[7vw] lg:px-[9vw] '>
         <Link to='/' className='flex items-center gap-2'>
-          <img src={assets.logo3} alt="Logo" className='w-10 lg:w-16 '/>
+          <img src={assets.logo3} alt="Logo" className='w-12 lg:w-16 '/>
           <div className='flex flex-col text-center leading-tight'>
             <span className='outfit-bold text-[#EB2188] text-sm sm:text-sm md:text-md lg:text-lg xl:text-xl'>
               KANYA FASHION
