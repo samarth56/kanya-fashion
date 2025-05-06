@@ -17,8 +17,8 @@ const App = () => {
   return (
     <div >
 
-      <MotionBar/>
-    <div className='  md:px-[7vw] lg:px-[9vw]  '>
+      {/* <MotionBar/> */}
+    <div className='   '>
       <Navbar/>
     </div>
 

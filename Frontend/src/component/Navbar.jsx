@@ -1,14 +1,18 @@
 import React, { useState } from 'react';
 import { assets } from '../assets/assets';
 import { Link, NavLink } from 'react-router-dom';
+import MotionBar from './MotionBar';
 
 const Navbar = () => {
   const [visible, setVisible] = useState(false);
 
   return (
-    <div className='relative'>
+    <div className='relative w-full '>
+
+    <MotionBar/>
+
       {/* Navbar Main */}
-      <div className='flex items-center justify-between py-3 font-medium px-2 sm:px-8'>
+      <div className='flex items-center justify-between py-3 font-medium px-2 sm:px-8 md:px-[7vw] lg:px-[9vw] '>
         <Link to='/' className='flex items-center gap-2'>
           <img src={assets.logo3} alt="Logo" className='w-16' />
           <div className='flex flex-col text-center leading-tight'>
