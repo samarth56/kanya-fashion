@@ -17,19 +17,22 @@ const VideoCarousel = () => {
       <Swiper
         modules={[Autoplay]}
         spaceBetween={20}
-        slidesPerView={6}
+        slidesPerView={1} // default for smallest screens
         loop={true}
         autoplay={{
-          delay: 0,
-          disableOnInteraction: false,
-        }}
-        speed={5000}
-        breakpoints={{
-          640: { slidesPerView: 2 },
-          768: { slidesPerView: 4 },
-          1024: { slidesPerView: 6 },
-        }}
-      >
+             delay: 0,
+            disableOnInteraction: false,    
+  }}
+        speed={3000}
+           breakpoints={{
+    480: { slidesPerView: 2 },   // small devices
+    640: { slidesPerView: 2 },
+    768: { slidesPerView: 2 },
+    1024: { slidesPerView: 4 },
+    1280: { slidesPerView: 6 },   // large screens
+  }}
+>
+
         {carouselVideo.map((video, index) => (
           <SwiperSlide key={index}>
             <VideoItem src={video} />
