@@ -74,7 +74,16 @@ import v7 from './v7.mp4'
 
 // exporting videos as array
 
-export const carouselVideo =[v1, v2, v3, v4, v5, v6, v7];
+export const carouselVideo = [
+  { video: v1, name: 'Ananya Silk Saree', cost: '₹3000' },
+  { video: v2, name: 'Ritika Georgette Kurta Set', cost: '₹2500' },
+  { video: v3, name: 'Priya Designer Lehenga Choli', cost: '₹8000' },
+  { video: v4, name: 'Madhavi Cotton Salwar Kameez', cost: '₹1200' },
+  { video: v5, name: 'Meera Anarkali Dress', cost: '₹3500' },
+  { video: v6, name: 'Sanya Embroidered Kurti', cost: '₹1800' },
+  { video: v7, name: 'Aishwarya Bridal Saree', cost: '₹12000' },
+];
+
 
 
 import logo from './logo.png'

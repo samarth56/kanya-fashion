@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import { products, categoryArr } from "../assets/assets";
+import { products, categoryArr, carouselVideo } from "../assets/assets";
 
 export const ShopContext = createContext();
 
@@ -11,7 +11,7 @@ const ShopContextProvider = (props)=>{
 
     
     const value ={
-        products, currency, percent, categoryArr
+        products, currency, percent, categoryArr, carouselVideo
     }
 
     return(
