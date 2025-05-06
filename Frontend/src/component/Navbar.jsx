@@ -15,7 +15,7 @@ const Navbar = () => {
         
         <Link to='/' className='flex items-center gap-2'>
         <img src={assets.logo3} alt="LLL" className='w-16' /> 
-          <span className='prata-regular text-[#EB2188]'>KANYA FASHION</span>
+          <span className='prata-regular text-[#EB2188] text-sm sm:text-sm md:text-md lg:text-lg xl:text-xl '>KANYA FASHION</span>
         </Link>
         
         <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>
