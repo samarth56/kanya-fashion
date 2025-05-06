@@ -16,8 +16,8 @@ const Categories = () => {
     }, [])
 
   return (
-    <div className='my-10'>
-         <div className='text-center py-8 text-3xl'>
+    <div className='my-2 lg:my-14'>
+         <div className='text-center py-5 lg:py-10 text-3xl'>
             <Title  text2={'CATEGORY'} />
         </div>
 
