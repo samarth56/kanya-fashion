@@ -10,7 +10,7 @@ const Hero = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div className="w-full mx-auto mt-32 ">
+    <div className="w-full mx-auto lg:mt-32 mt-28">
       <Link to="/collection">
         <Swiper
           modules={[Autoplay, EffectFade]}
