@@ -7,7 +7,7 @@ const Navbar = () => {
   const [visible, setVisible] = useState(false);
 
   return (
-    <div className='relative w-full '>
+    <div className='z-40 bg-white w-full fixed top-0 border-b-2'>
 
     <MotionBar/>
 
