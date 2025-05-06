@@ -63,6 +63,20 @@ import catgoryImg5 from './Untitled-6.jpg'
 import catgoryImg6 from './Untitled-7.jpg'
 
 
+// video importing
+import v1 from './v1.mp4'
+import v2 from './v2.mp4'
+import v3 from './v3.mp4'
+import v4 from './v4.mp4'
+import v5 from './v5.mp4'
+import v6 from './v6.mp4'
+import v7 from './v7.mp4'
+
+// exporting videos as array
+
+export const carouselVideo =[v1, v2, v3, v4, v5, v6, v7];
+
+
 import logo from './logo.png'
 import logo2 from './logo2.png'
 import hero_img from './hero_img.png'
