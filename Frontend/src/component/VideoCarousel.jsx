@@ -25,9 +25,9 @@ const VideoCarousel = () => {
   }}
         speed={3000}
            breakpoints={{
-    480: { slidesPerView: 2 },   // small devices
-    640: { slidesPerView: 2 },
-    768: { slidesPerView: 2 },
+    480: { slidesPerView: 3 },   // small devices
+    640: { slidesPerView: 3 },
+    768: { slidesPerView: 4 },
     1024: { slidesPerView: 4 },
     1280: { slidesPerView: 6 },   // large screens
   }}
