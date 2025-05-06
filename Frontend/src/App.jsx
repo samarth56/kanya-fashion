@@ -11,13 +11,14 @@ import PlaceOrder from './pages/PlaceOrder'
 import Orders from './pages/Orders'
 import Navbar from './component/Navbar'
 import Footer from './component/Footer'
+import MotionBar from './component/MotionBar'
 
 const App = () => {
   return (
     <div >
 
+      <MotionBar/>
     <div className='px-4   sm:px-[5vw] md:px-[7vw] lg:px-[9vw]  '>
-
       <Navbar/>
     </div>
 
