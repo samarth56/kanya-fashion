@@ -22,7 +22,7 @@ const VideoCarousel = () => {
         slidesPerView={2} // fallback for very small screens
         loop={true}
         autoplay={{
-          delay: 0,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         speed={4000}

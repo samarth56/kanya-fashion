@@ -15,7 +15,7 @@ import MotionBar from './component/MotionBar'
 
 const App = () => {
   return (
-    <div >
+    <div className='bg-[#fdf5f3]' >
 
       {/* <MotionBar/> */}
     <div className='   '>
