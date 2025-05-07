@@ -140,6 +140,8 @@ export const assets = {
 }
 
 
+
+
 export const categoryArr = [
     {
         _id:"aaa",
@@ -160,6 +162,73 @@ export const categoryArr = [
         name: "Saree"
     },  
 ]
+
+
+//review data
+export const reviews = [
+    {
+      image: p_img1,
+      name: "Sarah Johnson",
+      rating: 5,
+      review: "Absolutely loved the service! Fast, friendly, and high quality."
+    },
+    {
+      image: p_img1,
+      name: "David Lee",
+      rating: 4,
+      review: "Great experience overall. Would definitely recommend!"
+    },
+    {
+      image: p_img1,
+      name: "Emily Smith",
+      rating: 5,
+      review: "Exceptional customer support and attention to detail."
+    },
+    {
+      image: p_img1,
+      name: "Michael Brown",
+      rating: 4,
+      review: "Very satisfied. Quick response and quality work."
+    },
+    {
+      image: p_img1,
+      name: "Jessica Davis",
+      rating: 5,
+      review: "Fantastic! I got exactly what I needed and more."
+    },
+    {
+      image: p_img1,
+      name: "James Wilson",
+      rating: 3,
+      review: "Good service, though there’s room for improvement."
+    },
+    {
+      image: p_img1,
+      name: "Amanda Taylor",
+      rating: 5,
+      review: "A wonderful experience from start to finish."
+    },
+    {
+      image: p_img1,
+      name: "Chris Martin",
+      rating: 4,
+      review: "Well executed and professional throughout."
+    },
+    {
+      image: p_img1,
+      name: "Olivia Anderson",
+      rating: 5,
+      review: "Loved the detail and care that went into everything!"
+    },
+    {
+      image: p_img1,
+      name: "Daniel Thomas",
+      rating: 4,
+      review: "Smooth process and great communication."
+    }
+  ];
+  
+
 
 export const products = [
     {

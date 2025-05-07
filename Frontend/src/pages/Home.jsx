@@ -6,6 +6,7 @@ import OurPolicy from '../component/OurPolicy'
 import Categories from '../component/Categories'
 import VideoCarousel from '../component/VideoCarousel'
 import AboutUs from '../component/AboutUs'
+import ReviewSection from '../component/ReviewSection'
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       {/* <BestSeller/> */}
       <AboutUs/>
       <OurPolicy/>
+      <ReviewSection/>
       </div>
     </div>
   )
