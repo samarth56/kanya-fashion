@@ -5,6 +5,7 @@ import BestSeller from '../component/BestSeller'
 import OurPolicy from '../component/OurPolicy'
 import Categories from '../component/Categories'
 import VideoCarousel from '../component/VideoCarousel'
+import AboutUs from '../component/AboutUs'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <LatestCollection/>
       <VideoCarousel/>
       {/* <BestSeller/> */}
+      <AboutUs/>
       <OurPolicy/>
       </div>
     </div>

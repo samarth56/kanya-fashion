@@ -20,6 +20,12 @@
     font-weight: 900;
     font-style: normal;
 }
+
+.outfit-light{
+    font-family: 'outfit', serif;
+    font-weight: 300;
+    font-style: normal;
+}
   
 
 a.active hr{
