@@ -19,7 +19,7 @@ const VideoCarousel = () => {
       <Swiper
         modules={[Autoplay]}
         spaceBetween={20}
-        slidesPerView={1} // fallback for very small screens
+        slidesPerView={2} // fallback for very small screens
         loop={true}
         autoplay={{
           delay: 0,

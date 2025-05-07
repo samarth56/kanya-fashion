@@ -26,7 +26,7 @@ const Navbar = () => {
         </Link>
 
         {/* Nav Links */}
-        <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>
+        <ul className='hidden md:flex gap-5 text-sm text-gray-700'>
           <NavLink to='/' className="flex flex-col items-center gap-1">
             <p>HOME</p>
           </NavLink>
@@ -56,7 +56,7 @@ const Navbar = () => {
         </ul>
 
         {/* Top-right icons for large screens */}
-        <div className='hidden sm:flex items-center gap-6'>
+        <div className='hidden md:flex items-center gap-6'>
           <img src={assets.search_icon} alt="Search" className='cursor-pointer w-5 h-5' />
           <div className='group relative'>
             <img src={assets.profile_icon} className='w-5 cursor-pointer' alt="Profile" />
@@ -76,7 +76,7 @@ const Navbar = () => {
         </div>
 
         {/* Hamburger menu for small screens */}
-        <div className='sm:hidden'>
+        <div className='md:hidden'>
           <img
             onClick={() => setVisible(true)}
             src={assets.menu_icon}

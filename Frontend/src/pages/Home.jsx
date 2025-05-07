@@ -14,7 +14,7 @@ const Home = () => {
       <Categories/>
       <LatestCollection/>
       <VideoCarousel/>
-      <BestSeller/>
+      {/* <BestSeller/> */}
       <OurPolicy/>
       </div>
     </div>

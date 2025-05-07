@@ -15,8 +15,8 @@ const VideoItem = ({ src, name, cost }) => {
       </div>
 
       <div className="mt-1 ">
-        <p className="font-medium">{name}</p>
-        <p className="text-sm font-semibold text-gray-600">{cost}</p>
+        <p className="font-medium truncate overflow-hidden whitespace-nowrap  text-sm">{name}</p>
+        <p className="text-sm font-semibold  text-gray-600">{cost}</p>
       </div>
     </Link>
   );

@@ -59,8 +59,7 @@ import catgoryImg1 from './Untitled-2.jpg'
 import catgoryImg2  from './Untitled-3.jpg'
 import catgoryImg3 from './Untitled-4.jpg'
 import catgoryImg4 from './Untitled-5.jpg'
-import catgoryImg5 from './Untitled-6.jpg'
-import catgoryImg6 from './Untitled-7.jpg'
+
 
 
 // video importing
@@ -145,29 +144,21 @@ export const categoryArr = [
     {
         _id:"aaa",
         image: [catgoryImg1],
-        name: "Co-ords"
+        name: "Salvar Suit"
     },
     {
         _id:"aab",
         image: [catgoryImg2],
-        name: "Kurta Set"
+        name: "Gown"
     },  {
         _id:"aac",
         image: [catgoryImg3],
-        name: "Blazer Set"
+        name: "Kurtis"
     },  {
         _id:"aad",
         image: [catgoryImg4],
-        name: "Dresses"
-    },  {
-        _id:"aae",
-        image: [catgoryImg5],
-        name: "Gown"
-    },  {
-        _id:"aaf",
-        image: [catgoryImg6],
-        name: "Salwar Suit"
-    },
+        name: "Saree"
+    },  
 ]
 
 export const products = [
