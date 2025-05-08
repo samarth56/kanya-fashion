@@ -35,15 +35,15 @@ const Navbar = () => {
             <p>HOME</p>
           </NavLink> */}
 
-          <NavLink to='/collection' className="flex flex-col items-center gap-1 group relative">
+          <NavLink to='/all-products' className="flex flex-col items-center gap-1 group relative">
             <p>NEW ARRIVALS</p>
-            <div className='group-hover:block hidden absolute left-1/2 transform -translate-x-1/2 top-full pt-4 z-10'>
+            {/* <div className='group-hover:block hidden absolute left-1/2 transform -translate-x-1/2 top-full pt-4 z-10'>
               <div className='flex flex-col gap-2 w-36 py-3 px-5 bg-slate-100 text-gray-500 rounded'>
                 <p className='cursor-pointer hover:text-black'>Salvar</p>
                 <p className='cursor-pointer hover:text-black'>Saree</p>
                 <p className='cursor-pointer hover:text-black'>Anarkali</p>
               </div>
-            </div>
+            </div> */}
           </NavLink>
 
           <NavLink to='/about' className="flex flex-col items-center gap-1">
