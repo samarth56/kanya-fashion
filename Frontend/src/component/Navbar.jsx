@@ -13,6 +13,10 @@ const Navbar = () => {
 
       {/* Navbar Main */}
       <div className='flex items-center justify-between py-3 font-medium px-2 sm:px-8 md:px-[7vw] lg:px-[9vw] '>
+      {/* <p>MENU</p>
+      <img src={assets.menu_icon} className='w-5 cursor-pointer' alt="Profile" /> */}
+
+
         <Link to='/' className='flex items-center gap-2'>
           <img src={assets.logo3} alt="Logo" className='w-12 lg:w-16 '/>
           <div className='flex flex-col text-center leading-tight'>
@@ -26,10 +30,10 @@ const Navbar = () => {
         </Link>
 
         {/* Nav Links */}
-        <ul className='hidden md:flex gap-5 text-sm text-gray-700'>
-          <NavLink to='/' className="flex flex-col items-center gap-1">
+        <ul className='hidden md:flex gap-5 text-base text-gray-700'>
+          {/* <NavLink to='/' className="flex flex-col items-center gap-1">
             <p>HOME</p>
-          </NavLink>
+          </NavLink> */}
 
           <NavLink to='/collection' className="flex flex-col items-center gap-1 group relative">
             <p>NEW ARRIVALS</p>
@@ -94,7 +98,7 @@ const Navbar = () => {
             <p>Back</p>
           </div>
 
-          <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border' to='/'>HOME</NavLink>
+          {/* <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border' to='/'>HOME</NavLink> */}
           <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border' to='/collection'>NEW ARRIVALS</NavLink>
           <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border' to='/about'>SHOP BY OCCASION</NavLink>
           <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border' to='/contact'>TRANDING COLLECTION</NavLink>

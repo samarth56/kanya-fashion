@@ -10,7 +10,7 @@ const LatestCollection = () => {
     const [latestProducts, setLatestProducts] = useState([]);
 
     useEffect(()=>{
-        setLatestProducts(products.slice(0,8))
+        setLatestProducts(products.slice(0,4))
     },[])
 
   return (
@@ -30,7 +30,7 @@ const LatestCollection = () => {
     </div>
 
      <div className='w-full flex justify-center'>
-     <Link to='/cart'  className='text-center mt-8 cursor-pointer bg-black text-white hover:scale-105 transition ease-in-out  py-3 px-5'>
+     <Link to='/all-products'  className='text-center mt-8 cursor-pointer bg-black text-white hover:scale-105 transition ease-in-out  py-3 px-5'>
             VIEW ALL PRODUCTS
       </Link>
      </div>

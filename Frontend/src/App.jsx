@@ -12,20 +12,21 @@ import Orders from './pages/Orders'
 import Navbar from './component/Navbar'
 import Footer from './component/Footer'
 import MotionBar from './component/MotionBar'
+import AllProducts from './pages/AllProducts'
 
 const App = () => {
   return (
     <div className='bg-[#f8fcff]' >
 
       {/* <MotionBar/> */}
-    <div className='   '>
+    <div className=' mb-24  '>
       <Navbar/>
     </div>
 
 
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path='/collection' element={<Collections/>} />
+        <Route path='/all-products' element={<AllProducts/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/contact' element={<Contact/>} />
         <Route path='/product/:productId' element={<Product/>} />

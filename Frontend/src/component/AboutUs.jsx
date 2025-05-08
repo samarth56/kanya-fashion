@@ -9,7 +9,7 @@ const AboutUs = () => {
         alt="About Us"
         className="w-24 h-24 rounded-full object-cover mb-4 shadow-md lg:w-36 lg:h-36"
       />
-      <h1 className="text-md outfit-light lg:text-2xl font-bold mb-4 text-[#EB2188]">
+      <h1 className="text-md outfit-bold lg:text-2xl font-bold mb-4 text-[#EB2188]">
         #WE ARE KANYA FASHION
       </h1>
       <p className="text-[0.8rem] lg:text-base text-gray-600 max-w-4xl">
