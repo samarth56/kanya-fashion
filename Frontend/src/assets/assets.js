@@ -146,20 +146,24 @@ export const categoryArr = [
     {
         _id:"aaa",
         image: [catgoryImg1],
-        name: "SALWAR SUITS"
+        name: "SALWAR SUITS",
+        link:'/SalwarPage'
     },
     {
         _id:"aab",
         image: [catgoryImg2],
-        name: "GOWN"
+        name: "GOWN",
+        link:'/GownPage'
     },  {
         _id:"aac",
         image: [catgoryImg3],
-        name: "KURTIS"
+        name: "KURTIS",
+        link:'/KurtiPage'
     },  {
         _id:"aad",
         image: [catgoryImg4],
-        name: "SAREE"
+        name: "SAREE",
+        link:'/SareePage'
     },  
 ]
 

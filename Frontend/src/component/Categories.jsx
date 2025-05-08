@@ -24,7 +24,7 @@ const Categories = () => {
         <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-4 gap-y-6'>
             {
                 catItem.map((item, idx)=>(
-                    <CategoryItem key={idx} id={item._id} image={item.image} title={item.name}/>
+                    <CategoryItem key={idx} id={item._id} image={item.image} title={item.name} link={item.link}/>
                 ))
             }
         </div>  
