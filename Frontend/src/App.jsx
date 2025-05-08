@@ -13,6 +13,7 @@ import Navbar from './component/Navbar'
 import Footer from './component/Footer'
 import MotionBar from './component/MotionBar'
 import AllProducts from './pages/AllProducts'
+import ScrollToTop from './component/ScrollToTop'
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
     </div>
 
 
+        <ScrollToTop/>
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/all-products' element={<AllProducts/>} />
