@@ -23,14 +23,14 @@ const Footer = () => {
           <p className="lg:text-lg text-base font-medium mb-5 text-[#EB2188]">SUPPORT</p>
           <ul className="flex flex-col gap-1">
             <li>Track Order</li>
-            <li>About Us</li>
+            {/* <li>About Us</li> */}
             <li>Privacy Policy</li>
             <li>Return and Exchange Policy</li>
             <li>Shipping Policy</li>
             <li>Terms of Service</li>
-            <li>Contact Us</li>
-            <li>Blogs</li>
-            <li>Business Enquiry</li>
+            {/* <li>Contact Us</li> */}
+            {/* <li>Blogs</li> */}
+            <li>Bulk Enquiry</li>
           </ul>
         </div>
 
